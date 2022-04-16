@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+ :root {
+    --primary-bg-color: #dabdda;
+    --secondary-bg-color: #0099cc;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+}
+
+.header {
+    background-color: none;
+    color: black;
+    padding: 1.5rem;
+}
+
+.menu li {
+    background-color: var(--primary-bg-color);
+    color: rgb(7, 9, 131);
+    padding-left: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover {
+    color: var(--secondary-bg-color);
+}
+
+.menu h3 {
+    text-align: center;
+}
+
+.box-1 {
+    border-radius: 5mm;
+    border-color: blueviolet;
+    border-style: dotted;
+    padding: 1mm;
+    margin: 2rem;
+}
+
+.box-2 {
+    max-width: 800px;
+    background-color: rgb(241, 167, 167);
+    border: 2px solid;
+    border-radius: 5mm;
+    border-color: rgb(103, 230, 86);
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.col {
+    max-width: 400px;
+}
+
+.aside {
+    max-width: 400px;
+    background-color: var(--primary-bg-color);
+    border: 2px solid;
+    border-color: rgb(103, 230, 86);
+    border-radius: 5mm;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.foto {
+    height: 150px;
+    margin: 2px;
+    border-radius: 5mm;
+}
+
+footer {
+    background-color: rgb(219, 217, 217);
+    color: black;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
